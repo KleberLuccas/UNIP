@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main()
+{
+    int fatorial, fatorial2,fatorial3, total;;
+
+    printf("Digite o valor a ser fatorado");
+    scanf("%d", &fatorial2);
+
+        fatorial=fatorial2-1;
+
+    while (fatorial > 1){
+            fatorial2 *=fatorial;
+            fatorial = fatorial -1;
+
+        printf("%d\n", fatorial2);
+    }
+
+return 0;
+}
